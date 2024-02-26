@@ -34,6 +34,15 @@ function handleCommand(userInput) {
         output.textContent = "Opening Google...";
         speak("Opening google...");
     }
+      else if (userInput.includes("open github")) {
+        window.open("https://www.github.com", "_blank");
+        output.textContent = "Opening Github...";
+        speak("Opening github...");
+    }
+      else if (userInput.includes("are you")) {
+        output.textContent = "Myself VM-SEHGORP VERSION 2.O and I am a very intelligent AI software and I was developed by Master Harshvardhan and I only obey their commands.";
+        speak("Myself VM-SEHGORP VERSION 2.O and I am a very intelligent AI software and I was developed by Master Harshvardhan and I only obey their commands.");
+    }
     
     else {
         output.textContent = "Command not recognized.";
