@@ -39,7 +39,7 @@ function handleCommand(userInput) {
         output.textContent = "Opening Github...";
         speak("Opening github...");
     }
-      else if (userInput.includes("are you")) {
+      else if (userInput.includes("who are you","what's your name")) {
         output.textContent = "Myself VM-SEHGORP VERSION 2.O and I am a very intelligent AI software and I was developed by Master Harshvardhan and I only obey their commands.";
         speak("Myself VM-SEHGORP VERSION 2.O and I am a very intelligent AI software and I was developed by Master Harshvardhan and I only obey their commands.");
     }
